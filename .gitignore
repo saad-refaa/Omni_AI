@@ -1,24 +1,36 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
+# Visual Studio / dotnet
+bin/
+obj/
+*.user
 *.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+.vs/
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Build outputs
+**/bin/
+**/obj/
+**/target/
+
+# NuGet
+*.nupkg
+packages/
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Certificates
+certs/
+
+# Temporary
+*.tmp
+
+# Ignore IDE workspace storage
+.vscode/
